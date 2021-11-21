@@ -1,2 +1,2 @@
-# photo-organizer.py
+# photo-organizer
  Organizador de Imagens e Fotos
