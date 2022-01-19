@@ -39,8 +39,9 @@ class PhotoOrganizer:
         photos = [
             filename for filename in os.listdir('.') if any(filename.endswith(ext) for ext in self.extensions)
         ]
-        for filename in photos:
-            self.move_photo(filename)  
+        for filename in photos:            
+            self.move_photo(filename) 
+            
 
 PO = PhotoOrganizer()
 PO.organize()
